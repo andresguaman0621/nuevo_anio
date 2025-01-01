@@ -8,7 +8,8 @@ body {
     min-height: 100vh;
     background: linear-gradient(to bottom, #ffd9d4, #ffd677);
     color: #444;
-    overflow-x: hidden; /* Solo deshabilita desplazamiento horizontal */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
 }
 
 .container {
@@ -16,7 +17,7 @@ body {
     max-width: 600px;
     padding: 20px;
     box-sizing: border-box;
-    margin-bottom: 50px; /* Asegura que el botón no quede oculto */
+    margin-bottom: 50px; /* Espacio adicional para asegurar visibilidad */
 }
 
 .card {
