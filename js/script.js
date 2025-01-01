@@ -7,7 +7,7 @@ const videoFrame = document.getElementById("videoFrame");
 videoButton.addEventListener("click", () => {
   videoOverlay.style.display = "flex";
   videoFrame.src =
-    "https://www.youtube.com/embed/m85i0yEWytQ?si=6GOOCLsXe85nzC7K";
+    "https://youtube.com/shorts/DUh6ffyTDu4?si=6cn2kZ_hObFTzUxt";
 });
 
 closeVideo.addEventListener("click", () => {
